@@ -14,4 +14,10 @@
         <p>{{city}}</p>
     {% endfor %}
 
+    {% if cities %}
+        <p>The cities variable exists.</p>
+    {% else %}
+        <p>There are no cities :(</p>
+    {% endif %}
+
 {% endblock content %}
